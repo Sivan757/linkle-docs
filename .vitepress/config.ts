@@ -1,15 +1,30 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Linkle',
-  description: 'AI API 网关文档',
+  title: 'Linkle 文档',
+  description: 'Linkle AI API 网关 — 统一中转站，支持 Claude Code、Codex、Claude API 的配置与使用指南',
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
 
+  head: [
+    ['meta', { name: 'keywords', content: 'Linkle,AI API 网关,中转站,Claude Code 配置,Codex 中转,Anthropic SDK 代理,API 中转,LLM 代理' }],
+    ['meta', { name: 'author', content: 'Linkle' }],
+    ['meta', { property: 'og:title', content: 'Linkle 文档 — AI API 网关中转站' }],
+    ['meta', { property: 'og:description', content: '统一的 AI API 中转入口，支持 Claude Code、Codex CLI、Anthropic SDK 等客户端配置' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['link', { rel: 'canonical', href: 'https://linkle.space' }],
+  ],
+
+  sitemap: {
+    hostname: 'https://linkle.space',
+  },
+
   themeConfig: {
     nav: [
       { text: '指南', link: '/guide/getting-started' },
+      { text: '客户端', link: '/clients/overview' },
       { text: 'API', link: '/api/overview' },
       { text: '部署', link: '/deployment/overview' },
     ],
@@ -23,6 +38,17 @@ export default defineConfig({
             { text: '渠道配置', link: '/guide/channels' },
             { text: '计费', link: '/guide/billing' },
             { text: '认证', link: '/guide/auth' },
+          ],
+        },
+      ],
+      '/clients/': [
+        {
+          text: '客户端配置',
+          items: [
+            { text: '概览', link: '/clients/overview' },
+            { text: 'Claude Code', link: '/clients/claude-code' },
+            { text: 'Codex CLI', link: '/clients/codex' },
+            { text: 'Claude API / SDK', link: '/clients/claude-api' },
           ],
         },
       ],
