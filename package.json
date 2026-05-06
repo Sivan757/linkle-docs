@@ -14,5 +14,11 @@
   "packageManager": "pnpm@10.30.3",
   "devDependencies": {
     "vitepress": "^1.6.4"
-  }
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  },
+  "type": "module"
 }
