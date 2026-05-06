@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Linkle 文档',
   description: 'Linkle AI API 网关 — 统一中转站，支持 Claude Code、Codex、Claude API 的配置与使用指南',
   lang: 'zh-CN',
+  base: '/docs/',
   lastUpdated: true,
   cleanUrls: true,
 
@@ -14,7 +15,7 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: '统一的 AI API 中转入口，支持 Claude Code、Codex CLI、Anthropic SDK 等客户端配置' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
-    ['link', { rel: 'canonical', href: 'https://linkle.space' }],
+    ['link', { rel: 'canonical', href: 'https://linkle.space/docs' }],
   ],
 
   sitemap: {
