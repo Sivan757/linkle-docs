@@ -3,29 +3,23 @@ layout: home
 
 hero:
   name: Linkle
-  text: AI API 网关
-  tagline: 统一的 OpenAI 兼容 API 入口，聚合多个上游 AI 供应商
+  text: 用户教程
+  tagline: 获取 API Key，配置常用客户端，并验证你的第一次 Linkle 调用
   actions:
     - theme: brand
       text: 快速开始
       link: /guide/getting-started
     - theme: alt
-      text: API 参考
-      link: /api/overview
+      text: 客户端配置
+      link: /clients/overview
 
 features:
-  - title: 多供应商聚合
-    details: 支持 40+ 上游 AI 提供商，统一 OpenAI 兼容格式输出
-  - title: 智能路由
-    details: 渠道加权随机、失败自动重试、用户级速率限制
-  - title: 格式转换
-    details: OpenAI ↔ Claude Messages、OpenAI → Gemini、思考模式支持
-  - title: 完善的计费
-    details: 在线充值、按量付费、缓存计费、灵活的计费策略
-  - title: 多认证方式
-    details: OIDC 统一认证、Token 管理、模型权限控制
-  - title: 管理后台
-    details: 数据仪表盘、可视化管理、多语言支持
+  - title: 获取 API Key
+    details: 从 Linkle 控制台创建 Token，确认模型权限和额度。
+  - title: 配置客户端
+    details: 按教程接入 Claude Code、Codex CLI 或 Anthropic SDK。
+  - title: 验证调用
+    details: 使用最小请求检查认证、模型和网络连接是否正常。
 
 footer: false
 ---

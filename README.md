@@ -1,33 +1,11 @@
-# linkle.space 文档站
+# Linkle 用户教程
 
-linkle.space 用户文档，VitePress 构建，私有维护。
+这些教程帮助你完成 API Key 获取、客户端配置和基础调用验证。
 
-## 技术栈
+## 教程目录
 
-| 层 | 技术 |
-|----|------|
-| 框架 | VitePress |
-| 包管理 | pnpm |
-| 构建 | Vite + esbuild |
-
-## 快速开始
-
-```bash
-pnpm dev      # 本地开发
-pnpm build    # 生产构建
-pnpm preview  # 预览构建结果
-```
-
-## 结构
-
-```
-index.md          — 首页（hero layout）
-guide/            — 使用指南
-api/              — API 参考
-deployment/       — 部署运维
-.vitepress/       — VitePress 配置
-```
-
-## 部署
-
-待定（计划部署为 docs.linkle.space）
+- [快速开始](./guide/getting-started.md)
+- [客户端配置概览](./clients/overview.md)
+- [Claude Code 配置](./clients/claude-code.md)
+- [Codex CLI 配置](./clients/codex.md)
+- [Claude API / SDK 配置](./clients/claude-api.md)

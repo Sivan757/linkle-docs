@@ -1,6 +1,6 @@
 # 客户端配置
 
-Linkle 提供 OpenAI 兼容 API，可作为 Claude Code、Codex CLI、Anthropic SDK 等工具的中转站。
+Linkle 可作为 Claude Code、Codex CLI、Anthropic SDK 等工具的统一 API 入口。
 
 ## 支持的客户端
 
@@ -12,7 +12,7 @@ Linkle 提供 OpenAI 兼容 API，可作为 Claude Code、Codex CLI、Anthropic 
 
 ## 前提条件
 
-1. 已获取 Linkle API Key（登录控制台 → 令牌管理 → 创建 Token）
+1. 已获取 Linkle API Key（登录 Linkle 控制台 → 令牌管理 → 创建 Token）
 2. Token 已配置目标模型权限
 3. 网络可访问 `https://linkle.space`
 
