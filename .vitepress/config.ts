@@ -27,6 +27,7 @@ export default defineConfig({
     nav: [
       { text: '快速开始', link: '/guide/getting-started' },
       { text: '客户端配置', link: '/clients/overview' },
+      { text: 'API 调用', link: '/api/image-generation' },
     ],
 
     sidebar: {
@@ -46,6 +47,14 @@ export default defineConfig({
             { text: 'Claude Code', link: '/clients/claude-code' },
             { text: 'Codex CLI', link: '/clients/codex' },
             { text: 'Claude API / SDK', link: '/clients/claude-api' },
+          ],
+        },
+      ],
+      '/api/': [
+        {
+          text: 'API 调用',
+          items: [
+            { text: '图片生成', link: '/api/image-generation' },
           ],
         },
       ],

@@ -9,3 +9,4 @@
 - [Claude Code 配置](./clients/claude-code.md)
 - [Codex CLI 配置](./clients/codex.md)
 - [Claude API / SDK 配置](./clients/claude-api.md)
+- [图片生成接口](./api/image-generation.md)

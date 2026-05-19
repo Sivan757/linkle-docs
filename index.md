@@ -20,6 +20,8 @@ features:
     details: 按教程接入 Claude Code、Codex CLI 或 Anthropic SDK。
   - title: 验证调用
     details: 使用最小请求检查认证、模型和网络连接是否正常。
+  - title: 图片生成
+    details: 使用 /v1/images/generations 调用 gpt-image-2，避免把图片模型配置成编码客户端主模型。
 
 footer: false
 ---

@@ -16,6 +16,8 @@ https://linkle.space
 
 ## 使用示例
 
+文本模型使用 Chat Completions：
+
 ```bash
 curl https://linkle.space/v1/chat/completions \
   -H "Content-Type: application/json" \
@@ -25,6 +27,18 @@ curl https://linkle.space/v1/chat/completions \
     "messages": [
       {"role": "user", "content": "Hello"}
     ]
+  }'
+```
+
+图片模型使用图片生成接口：
+
+```bash
+curl https://linkle.space/v1/images/generations \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer sk-xxx" \
+  -d '{
+    "model": "gpt-image-2",
+    "prompt": "A clean product mockup on a white background"
   }'
 ```
 
@@ -42,3 +56,4 @@ curl https://linkle.space/v1/models \
 - [Claude Code 配置](/clients/claude-code)
 - [Codex CLI 配置](/clients/codex)
 - [Claude API / SDK 配置](/clients/claude-api)
+- [图片生成接口](/api/image-generation)
