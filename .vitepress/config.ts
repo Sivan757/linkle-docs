@@ -15,7 +15,7 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: '获取 Linkle API Key，并配置 Claude Code、Codex CLI、Anthropic SDK 等客户端' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
-    ['link', { rel: 'icon', href: '/docs/logo.png' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
     ['link', { rel: 'canonical', href: 'https://linkle.space/docs' }],
   ],
 
